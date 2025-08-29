@@ -12,10 +12,9 @@ point Spiral::getPoint(double t) const {
 }
 
 point Spiral::getDerivative(double t) const {
-    return { -radius * std::sin(t), radius * std::cos(t), step / (2.0 * PI) };
+    return { -1 * radius * std::sin(t), radius * std::cos(t), step / (2.0 * PI) };
 }
 
 std::string Spiral::getName() const { return "Spiral"; }
-
 
 }

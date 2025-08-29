@@ -15,4 +15,4 @@ public:
     std::string getName() const override;
 };
 
-} // namespace curves
+}

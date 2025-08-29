@@ -12,10 +12,9 @@ point Ellipse::getPoint(double t) const {
 }
 
 point Ellipse::getDerivative(double t) const {
-    return { -x_radius * std::sin(t), y_radius * std::cos(t), 0.0 };
+    return { -1 * x_radius * std::sin(t), y_radius * std::cos(t), 0.0 };
 }
 
 std::string Ellipse::getName() const { return "Ellipse"; }
-
 
 }

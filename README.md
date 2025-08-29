@@ -47,3 +47,28 @@ Design a small program in C++ that implements support for a hierarchy of 3D curv
 - Containers and sorting must be implemented using **STL**.
 - May use constructs of **C++11 or higher**.
 - The code must compile with **any standard compiler** (gcc, Clang, MSVC).
+
+---
+
+## Build
+
+```bash
+# 1. Clone repository
+git clone https://github.com/<your-username>/3d-curves.git
+cd 3d-curves
+
+# 2. Create build directory
+mkdir build && cd build
+
+# 3. Generate project files
+cmake -DCMAKE_BUILD_TYPE=Release ..
+
+# 4. Build
+cmake --build .
+```
+---
+
+## Run
+```bash
+./app/curves_app
+```

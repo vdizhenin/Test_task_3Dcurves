@@ -19,5 +19,4 @@ std::string Circle::getName() const { return "Circle"; }
 
 double Circle::getRadius() const { return radius; }
 
-
 }

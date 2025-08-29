@@ -14,5 +14,4 @@ public:
     std::string getName() const override;
 };
 
-
-} 
+}
