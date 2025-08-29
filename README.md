@@ -54,8 +54,8 @@ Design a small program in C++ that implements support for a hierarchy of 3D curv
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/<your-username>/3d-curves.git
-cd 3d-curves
+git clone https://github.com/<your-username>Test_task_3Dcurves.git
+cd Test_task_3Dcurves
 
 # 2. Create build directory
 mkdir build && cd build
